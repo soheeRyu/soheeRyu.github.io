@@ -16,7 +16,8 @@ body {
 }
 
 .contact {
-    margin-top: 20px;
+    position: absolute;
+    bottom: 40px;
 }
 
 .list-group-item {
@@ -54,4 +55,27 @@ body {
 .laptop {
     margin-top: 60px;
     margin-right: -52px;
+}
+
+.intro {
+    margin-top: 100px;
+    color: rgb(113, 20, 20);
+}
+
+.resume {
+    position: fixed;
+    top: 140px;
+    left: 820px;
+    bottom: 20px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.workcard {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 100px;
 }
