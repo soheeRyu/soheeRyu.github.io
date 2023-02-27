@@ -1,16 +1,27 @@
 body {
     margin-left: 80px;
-    background-image: url('background.jpg');
+    /*background-image: url('background.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    background-color:#ff99ce;*/
+    background-color:#ff99ad;
+    background-image:
+    radial-gradient(at 52% 43%, hsla(339,80%,71%,1) 0px, transparent 50%),
+    radial-gradient(at 68% 75%, hsla(337,76%,67%,1) 0px, transparent 50%),
+    radial-gradient(at 52% 34%, hsla(359,76%,79%,1) 0px, transparent 50%),
+    radial-gradient(at 43% 85%, hsla(34,63%,73%,1) 0px, transparent 50%),
+    radial-gradient(at 74% 34%, hsla(289,84%,66%,1) 0px, transparent 50%),
+    radial-gradient(at 57% 34%, hsla(27,78%,78%,1) 0px, transparent 50%),
+    radial-gradient(at 10% 96%, hsla(322,80%,74%,1) 0px, transparent 50%);
 }
 
 .name {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Courier New', Courier, monospace;
     font-size: 140px;
     margin-top: 40px;
-    color: #451c1c;
+    color: rgb(113, 20, 20);
+
     
 }
 
@@ -38,8 +49,10 @@ body {
 }
 
 .flex a {
+    font-family: 'Courier New', Courier, monospace;
     text-decoration: none;
-    color: #451c1c;
+    color: rgb(113, 20, 20);
+    font-weight: bolder;
     justify-content: flex-end;
 }
 
