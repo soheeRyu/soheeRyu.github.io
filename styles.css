@@ -179,3 +179,38 @@ nav {
 .card {
     border: black;
 }
+
+.intro h1 {
+    background: -webkit-linear-gradient(0deg,#ffe39b,#f7018d);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bolder;
+}
+
+.projectbox {
+    display: flex;
+    flex-direction: row;
+    gap: 280px;
+    margin-top: 50px;
+    margin-left: 60px;
+}
+
+.list-group-item {
+    height: 10px;
+}
+
+.card a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.card a:hover {
+    background: transparent;
+    box-shadow: 0 0 20px 10px rgba(51,152,219,0.5);
+}
+
+.card a:hover::before {
+    transform: translateX(100%);
+}
+
