@@ -200,17 +200,57 @@ nav {
     height: 10px;
 }
 
-.card a {
+.project {
+    width: 300px;
+}
+
+.description {
+    display: flex;
+    flex-direction: row;
+}
+
+.description1 {
+    color: white;
+    margin-left: 20px;
+}
+
+.description1 a {
     text-decoration: none;
-    color: whitesmoke;
+    color: white;
 }
 
-.card a:hover {
-    background: transparent;
-    box-shadow: 0 0 20px 10px rgba(51,152,219,0.5);
+.description2 a {
+    text-decoration: none;
+    color: white;
 }
 
-.card a:hover::before {
-    transform: translateX(100%);
+.description2 {
+    color: white;
+    margin-left: 20px;
 }
 
+.btn {
+    position: relative;
+    padding: 5px 20px;
+    border: 2px solid rgb(46, 108, 108);
+    margin: 10px 0;
+    overflow: hidden;
+}
+
+.btn::before {
+    content: "";
+    position: absolute;
+    color: white;
+    background: skyblue;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: all 0.5s ease-in-out;
+    z-index: -1;
+    width: 0%;
+    height: 100%;
+}
+
+.btn:hover::before {
+    width: 100%;
+}
